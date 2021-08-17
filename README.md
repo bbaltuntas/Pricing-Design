@@ -1,6 +1,6 @@
 # Pricing component with toggle
 
-![Design preview](./design/desktop-preview.jpg)
+![Design preview](./design/design.png)
 
 Bora Barış Altuntaş
 
