@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Pricing</title>
+
+    <!-- Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <!--    Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+            crossorigin="anonymous"></script>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<img class="image-top" src="/images/bg-top.svg" alt="img">
+
+<div class="main-cont">
+    <h2 class="main-heading">Our Pricing</h2>
+
+    <!--Toggle Switch-->
+    <span class="switch-label">Annualy</span>
+    <label class="switch">
+        <input class="input-switch" id="togBtn" type="checkbox" value="true" checked>
+        <span class="slider round"></span>
+    </label>
+    <span class="switch-label">Monthly</span><br>
+
+    <!--Price Containers-->
+    <div class="price-cont">
+
+        <div class="price shadow-lg">
+            <div class="content">
+                <p>Basic</p>
+                <h1 id="basic">$199.99</h1>
+                <hr>
+                <p>500 GB Storage</p>
+                <hr>
+                <p>2 Users Allowed</p>
+                <hr>
+                <p>Send up to 3GB</p>
+                <hr>
+                <button class="btn btn-lg btn-price" type="button">LEARN MORE</button>
+            </div>
+        </div>
+
+        <div class="price price-prof shadow-lg">
+            <div class="content">
+                <p>Professional</p>
+                <h1 id="prof">$249.99</h1>
+                <hr>
+                <p>1 TB Storage</p>
+                <hr>
+                <p>5 Users Allowed</p>
+                <hr>
+                <p>Send up to 10 GB</p>
+                <hr>
+                <button class="btn btn-lg btn-light btn-prof" type="button">LEARN MORE</button>
+            </div>
+        </div>
+
+        <div class="price shadow-lg">
+            <div class="content">
+                <p>Master</p>
+                <h1 id="master">$399.99</h1>
+                <hr>
+                <p>2 TB Storage</p>
+                <hr>
+                <p>10 Users Allowed</p>
+                <hr>
+                <p>Send up to 20 GB</p>
+                <hr>
+                <button class="btn btn-lg btn-price" type="button">LEARN MORE</button>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<!--Images-->
+<img class="image-bot" src="/images/bg-bottom.svg" alt="img">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
